@@ -83,13 +83,6 @@ public class Main {
         long elapsedTimeSequential = endTimeSequential - startTimeSequential;
         System.out.println("Sequential computing elapsed time: " + elapsedTimeSequential);
 
-//            resultMatrix2.printMatrix();
-//            boolean equal = Service.matrixEqual(resultMatrix, resultMatrix2);
-//            System.out.println("Matrix equal? " + equal);
-
-//            System.out.println("Vectors equal? " + Service.vectorEqual(X, X2));
-
-
         //Test equal
         Matrix parallelMatrix = f1.calculateMatrixParallel();
         Matrix sequentialMatrix = f1.calculateMatrixSequential();
